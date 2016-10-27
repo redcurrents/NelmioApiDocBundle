@@ -1,50 +1,9 @@
-@font-face{
-  font-family: 'Droid Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Droid Sans'), local('DroidSans'), url(//themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff')
-}
-
-@font-face{
-  font-family: 'Droid Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(//themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMXbFhgvWbfSbdVg11QabG8w.woff) format('woff')
-}
-
-.pln {
-  color: #000
-}
-
-@media screen{
-  .str{color:#080}
-  .kwd{color:#008}
-  .com{color:#800}
-  .typ{color:#606}
-  .lit{color:#066}
-  .pun,.opn,.clo{color:#660}
-  .tag{color:#008}
-  .atn{color:#606}
-  .atv{color:#080}
-  .dec,.var{color:#606}
-  .fun{color:red}
-}
-
-@media print,projection{
-  .str{color:#060}
-  .kwd{color:#006;font-weight:bold}
-  .com{color:#600;font-style:italic}
-  .typ{color:#404;font-weight:bold}
-  .lit{color:#044}
-  .pun,.opn,.clo{color:#440}
-  .tag{color:#006;font-weight:bold}
-  .atn{color:#404}
-  .atv{color:#060}
-}
-pre.prettyprint{padding:2px;border:1px solid #888}
-ol.linenums{margin-top:0;margin-bottom:0}
-li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}
-li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
+@font-face{font-family: 'Droid Sans';font-style: normal;font-weight: 400;src: local('Droid Sans'), local('DroidSans'), url(//themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff')}
+@font-face{font-family: 'Droid Sans';font-style: normal;font-weight: 700;src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(//themes.googleusercontent.com/static/fonts/droidsans/v3/EFpQQyG9GqCrobXxL-KRMXbFhgvWbfSbdVg11QabG8w.woff) format('woff')}
+.pln {color: #000}
+@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}
+@media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}
+pre.prettyprint{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -98,7 +57,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   text-decoration: underline;
 }
 
-h1 {
+.nelmio h1 {
   color: black;
   font-size: 1.5em;
   line-height: 1.3em;
@@ -107,42 +66,42 @@ h1 {
   font-weight: bold;
 }
 
-h2 {
+.nelmio h2 {
   color: black;
   font-size: 1.3em;
   padding: 10px 0 10px 0;
 }
-h2 a {
+.nelmio h2 a {
   color: black;
 }
 
-h3 {
+.nelmio h3 {
   color: black;
   font-size: 1.1em;
   padding: 10px 0 10px 0;
 }
 
-p {
+.nelmio p {
   line-height: 1.4em;
   padding: 0 0 10px 0;
   color: #333333;
 }
 
-a {
+.nelmio a {
   color: #547f00;
 }
 
-strong {
+.nelmio strong {
   font-family: "Droid Sans", sans-serif;
   font-weight: bold;
   font-weight: bold;
 }
 
-em {
+.nelmio em {
   font-style: italic;
 }
 
-code, pre {
+.nelmio code, pre {
   font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
   background-color: #fcf6db;
   white-space: pre-wrap;
@@ -152,70 +111,70 @@ code, pre {
   word-wrap: break-word;
 }
 
-p code {
+.nelmio p code {
   padding: 1px 4px 1px 4px;
   border: 1px solid #e5e0c6;
 }
 
-pre {
+.nelmio pre {
   padding: 10px;
   border: 1px solid #e5e0c6;
   margin-bottom: 15px;
   line-height:1.2em;
 }
 
-div.content ul, div.content ol {
+.nelmio div.content ul, div.content ol {
   line-height: 1.4em;
   color: #333333;
 }
 
-table.fullwidth {
+.nelmio table.fullwidth {
   width: 100%;
 }
-table.fullwidth > tbody > tr {
+.nelmio table.fullwidth > tbody > tr {
   border-bottom: 1px solid #cccccc;
 }
-table.fullwidth > tbody tr:last-child {
+.nelmio table.fullwidth > tbody tr:last-child {
   border-bottom: none;
 }
-table thead tr th {
+.nelmio table thead tr th {
   padding: 5px;
   font-size: 0.9em;
   color: #666666;
   border-bottom: 1px solid #999999;
 }
-table tbody tr td {
+.nelmio table tbody tr td {
   padding: 6px;
   font-size: 0.9em;
   vertical-align: top;
   line-height: 1.3em;
 }
 
-table tbody tr td.format {
+.nelmio table tbody tr td.format {
   word-break: break-word;
 }
 
-#header {
+.nelmio #header {
   background-color: #89BF04;
   padding: 1%;
   margin-bottom: 1%;
 }
 
-#header h1 {
+.nelmio #header h1 {
   font-size: 1.2em;
   float: left;
 }
 
-#header a {
+.nelmio #header a {
   text-decoration: none;
 }
 
-#sandbox_configuration {
+.nelmio #sandbox_configuration {
     float: right;
     padding: 10px 0 10px 0;
 }
 
-#colophon {
+.nelmio #colophon {
   margin: 0 15px 40px 15px;
   padding: 10px 0;
   font-size: 0.8em;
@@ -225,64 +184,64 @@ table tbody tr td.format {
   font-style: italic;
 }
 
-#resources {
+.nelmio #resources {
   padding: 0 1%;
   font-family: "Droid Sans", sans-serif;
   font-size: 0.9em;
 }
 
-.section {
+.nelmio .section {
     padding: 5px 20px;
     border-bottom: 1px solid #ddd;
 }
 
-.section h1 {
+.nelmio .section h1 {
     padding: 0;
 }
 
-.section.active {
+.nelmio .section.active {
     border: 1px solid #ddd;
     background: #f8f8f8;
     margin: 15px 0;
 }
 
-.section.active h1 {
+.nelmio .section.active h1 {
     padding: 10px 0;
 }
 
-.section .actions {
+.nelmio .section .actions {
     text-align: right;
     float: right;
     margin-top: 10px;
 }
 
-.section .actions a {
+.nelmio .section .actions a {
     cursor: pointer;
     margin-left: 10px;
 }
 
-.section .actions a:hover {
+.nelmio .section .actions a:hover {
     text-decoration: underline;
 }
 
-li.resource {
+.nelmio li.resource {
   width: 100%;
   margin-bottom: 10px;
   border-bottom: 1px solid #dddddd;
 }
-li.resource:last-child {
+.nelmio li.resource:last-child {
   border-bottom: none;
 }
 
 /* heading */
-.heading {
+.nelmio .heading {
   border: 1px solid transparent;
   float: none;
   clear: both;
   overflow: hidden;
   display: block;
 }
-.heading h2 {
+.nelmio .heading h2 {
   color: #999999;
   padding-left: 0;
   display: block;
@@ -291,7 +250,7 @@ li.resource:last-child {
   font-family: "Droid Sans", sans-serif;
   font-weight: bold;
 }
-.heading ul.options {
+.nelmio .heading ul.options {
   overflow: hidden;
   padding: 0;
   display: block;
@@ -299,7 +258,7 @@ li.resource:last-child {
   float: right;
   margin: 6px 10px 0 0;
 }
-.heading ul.options li {
+.nelmio .heading ul.options li {
   float: left;
   clear: none;
   margin: 0;
@@ -308,18 +267,18 @@ li.resource:last-child {
   color: #666666;
   font-size: 0.9em;
 }
-.heading ul.options li:first-child,
-.heading ul.options li.first {
+.nelmio .heading ul.options li:first-child,
+.nelmio .heading ul.options li.first {
   padding-left: 0;
 }
-.heading ul.options li:last-child,
-.heading ul.options li.last {
+.nelmio .heading ul.options li:last-child,
+.nelmio .heading ul.options li.last {
   padding-right: 0;
   border-right: none;
 }
 
 /* operations */
-li.operation {
+.nelmio li.operation {
   float: none;
   clear: both;
   overflow: hidden;
@@ -327,13 +286,13 @@ li.operation {
   margin: 0 0 10px;
   padding: 0 0 0 0;
 }
-li.operation .heading {
+.nelmio li.operation .heading {
   margin: 0 0 0 0;
   padding: 0;
   background-color: #f0f0f0;
   border: 1px solid #ddd;
 }
-li.operation .heading h3 {
+.nelmio li.operation .heading h3 {
   display: block;
   clear: none;
   float: left;
@@ -343,25 +302,25 @@ li.operation .heading h3 {
   line-height: 1.1em;
   color: black;
 }
-li.operation .heading h3 span {
+.nelmio li.operation .heading h3 span {
   margin: 0;
   padding: 0;
 }
-li.operation .heading h3 span.icon {
+.nelmio li.operation .heading h3 span.icon {
     display: inline-block;
     height: 12px;
     width: 12px;
     margin-left: 3px;
     background: no-repeat center center;
 }
-li.operation .heading h3 span.lock {
+.nelmio li.operation .heading h3 span.lock {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAYAAABbayygAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QUHEisepJ6ljAAAAJ5JREFUGNNt0LEOAUEUheEPuwkFtSg0old4Eo/imbQKiULpBZQSCtFoaIjSktXMxpjsSW5xzvnnZmb4aYMymg9WEq1Decc1zCNkyxisoFGUTXDGEZpR8cIp8jccKiaLigwDdMP9hughr8ptALtYoB18C+Pgd5KXlrhgX5P/mSfmmKVgM/mmDP1qQ1rEyjFFkYKNmtMF3uikYFGzOdXnC5FWMZNd2GfvAAAAAElFTkSuQmCC");
 
 }
-li.operation .heading h3 span.keys {
+.nelmio li.operation .heading h3 span.keys {
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAMCAYAAAC0qUeeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QUHEisb1PRRAwAAAN9JREFUKM9lz71KQ0EQhuEnJ7EIKhZWaRULu4htLLwDvYRgZWmTWoI3kAuIlVik0U5Io4USRMFOUGwU7cQ/kAQMajMHDpuBZWd235lvPtjHDT4xxhuu0ZJEhhXU8YAG7rCKBWyn8EnkVSxjOuoPbKTT1/GXnCd0YqWt4uQrk3GLGcxiswgPcRgG4QsDzKMSKtUc/kUbFwEf4BlrUdeCk8WOj3jBO+5xhGOMwmQzh6Ec9zemwtgOLuN9D4tZYqwUSvnuu3jFHLpZASqHUqXQfIZe5PX8Y4RTLKGfqLVwjp9/HR4zOkGnnAoAAAAASUVORK5CYII=");
 }
-li.operation .heading h3 span.http_method i, li.operation .heading h3 span.deprecated i {
+.nelmio li.operation .heading h3 span.http_method i, li.operation .heading h3 span.deprecated i {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
@@ -375,15 +334,15 @@ li.operation .heading h3 span.http_method i, li.operation .heading h3 span.depre
   border-radius: 2px;
   background-color: #ccc;
 }
-li.operation .heading h3 span.deprecated i {
+.nelmio li.operation .heading h3 span.deprecated i {
   width: 75px;
   background-color: #F00;
 }
-li.operation .heading h3 span.path {
+.nelmio li.operation .heading h3 span.path {
   padding-left: 5px;
 }
 
-li.operation .heading h3 span.tag {
+.nelmio li.operation .heading h3 span.tag {
   color: #FFFFFF;
   font-size: 0.7em;
   vertical-align: baseline;
@@ -395,7 +354,7 @@ li.operation .heading h3 span.tag {
   border-radius: 4px;
 }
 
-li.operation div.content {
+.nelmio li.operation div.content {
   border: 1px solid #ddd;
   padding: 10px;
   -moz-border-radius-bottomleft: 6px;
@@ -407,259 +366,259 @@ li.operation div.content {
   margin: 0 0 20px 0;
   background-color: #f0f0f0;
 }
-li.operation > div.content {
+.nelmio li.operation > div.content {
     border-top:0px;
 }
-li.operation div.content h4 {
+.nelmio li.operation div.content h4 {
   font-size: 1.1em;
   margin: 0;
   padding: 15px 0 5px 0;
 }
-li.operation div.content form input[type='text'].error {
+.nelmio li.operation div.content form input[type='text'].error {
   outline: 2px solid #cc0000;
 }
 
 /* GET operations */
-li.operation.get .heading {
+.nelmio li.operation.get .heading {
   border-color: #c3d9ec;
   background-color: #e7f0f7;
 }
-li.operation.get .heading h3 span.http_method i {
+.nelmio li.operation.get .heading h3 span.http_method i {
   background-color: #0f6ab4;
 }
-li.operation.get .heading ul.options li {
+.nelmio li.operation.get .heading ul.options li {
   border-right-color: #c3d9ec;
   color: #0f6ab4;
 }
 
-li.operation.get div.content {
+.nelmio li.operation.get div.content {
   background-color: #ebf3f9;
   border-color: #c3d9ec;
 }
-li.operation.get div.content h4 {
+.nelmio li.operation.get div.content h4 {
   color: #0f6ab4;
 }
 
 /* POST operations */
-li.operation.post .heading {
+.nelmio li.operation.post .heading {
   border-color: #a7e1a1;
   background-color: #d4f7cd;
 }
-li.operation.post .heading h3 span.http_method i{
+.nelmio li.operation.post .heading h3 span.http_method i{
   background-color: #10a54a;
 }
-li.operation.post .heading ul.options li {
+.nelmio li.operation.post .heading ul.options li {
   border-right-color: #c3e8d1;
   color: #10a54a;
 }
 
-li.operation.post div.content {
+.nelmio li.operation.post div.content {
   background-color: #ebf7f0;
   border-color: #c3e8d1;
 }
-li.operation.post div.content h4 {
+.nelmio li.operation.post div.content h4 {
   color: #10a54a;
 }
 
 /* ANY operations */
-li.operation.any .heading {
+.nelmio li.operation.any .heading {
   background-color: lightgray;
   border-color: gray;
 }
-li.operation.any .heading h3 span.http_method i {
+.nelmio li.operation.any .heading h3 span.http_method i {
   background-color: #000;
 }
-li.operation.any .heading ul.options li {
+.nelmio li.operation.any .heading ul.options li {
   color: #000;
   border-right-color: gray;
 }
 
-li.operation.any div.content {
+.nelmio li.operation.any div.content {
   background-color: lightgray;
   border-color: gray;
 }
-li.operation.any div.content h4 {
+.nelmio li.operation.any div.content h4 {
   color: #000;
 }
 
 /* PUT operations */
-li.operation.put .heading {
+.nelmio li.operation.put .heading {
   background-color: #f9f2e9;
   border-color: #f0e0ca;
 }
-li.operation.put .heading h3 span.http_method i {
+.nelmio li.operation.put .heading h3 span.http_method i {
   background-color: #c5862b;
 }
-li.operation.put .heading ul.options li {
+.nelmio li.operation.put .heading ul.options li {
   border-right-color: #f0e0ca;
   color: #c5862b;
 }
 
-li.operation.put div.content {
+.nelmio li.operation.put div.content {
   background-color: #faf5ee;
   border-color: #f0e0ca;
 }
-li.operation.put div.content h4 {
+.nelmio li.operation.put div.content h4 {
   color: #c5862b;
 }
 
 /* DELETE operations */
-li.operation.delete .heading {
+.nelmio li.operation.delete .heading {
   background-color: #f5e8e8;
   border-color: #e8c6c7;
 }
-li.operation.delete .heading h3 span.http_method i {
+.nelmio li.operation.delete .heading h3 span.http_method i {
   background-color: #a41e22;
 }
-li.operation.delete .heading ul.options li {
+.nelmio li.operation.delete .heading ul.options li {
   border-right-color: #e8c6c7;
   color: #a41e22;
 }
 
-li.operation.delete div.content {
+.nelmio li.operation.delete div.content {
   background-color: #f7eded;
   border-color: #e8c6c7;
 }
-li.operation.delete div.content h4 {
+.nelmio li.operation.delete div.content h4 {
   color: #a41e22;
 }
 
 /* PATCH operations */
-li.operation.patch .heading {
+.nelmio li.operation.patch .heading {
   background-color: #f5e8e8;
   border-color: #e8c6e7;
 }
-li.operation.patch .heading h3 span.http_method i {
+.nelmio li.operation.patch .heading h3 span.http_method i {
   background-color: #a41ee2;
 }
-li.operation.patch .heading ul.options li {
+.nelmio li.operation.patch .heading ul.options li {
   border-right-color: #e8c6c7;
   color: #a41ee2;
 }
 
-li.operation.patch div.content {
+.nelmio li.operation.patch div.content {
   background-color: #f7eded;
   border-color: #e8c6c7;
 }
-li.operation.patch div.content h4 {
+.nelmio li.operation.patch div.content h4 {
   color: #a41ee2;
 }
 
 /* LINK operations */
-li.operation.link .heading {
+.nelmio li.operation.link .heading {
   background-color: #F7F7D5;
 }
-li.operation.link .heading h3 span.http_method i {
+.nelmio li.operation.link .heading h3 span.http_method i {
   background-color: #C3D448;
 }
-li.operation.link .heading ul.options li {
+.nelmio li.operation.link .heading ul.options li {
   color: #C3D448;
 }
 
-li.operation.link div.content {
+.nelmio li.operation.link div.content {
   background-color: #F7F7D5;
 }
-li.operation.link div.content h4 {
+.nelmio li.operation.link div.content h4 {
   color: #C3D448;
 }
 
 /* UNLINK operations */
-li.operation.unlink .heading {
+.nelmio li.operation.unlink .heading {
   background-color: #FFEBDE;
 }
-li.operation.unlink .heading h3 span.http_method i {
+.nelmio li.operation.unlink .heading h3 span.http_method i {
   background-color: #FF8438;
 }
-li.operation.unlink .heading ul.options li {
+.nelmio li.operation.unlink .heading ul.options li {
   color: #FF8438;
 }
 
-li.operation.unlink div.content {
+.nelmio li.operation.unlink div.content {
   background-color: #FFEBDE;
 }
-li.operation.unlink div.content h4 {
+.nelmio li.operation.unlink div.content h4 {
   color: #FF8438;
 }
 
-.toggler {
+.nelmio .toggler {
   cursor: pointer;
 }
 
 
 /** sandbox */
-.pane:not(.selected) {
+.nelmio .pane:not(.selected) {
   display: none;
 }
 
-.result pre {
+.nelmio .result pre {
   border: none;
   font-size: 0.9em;
   overflow: auto;
 }
 
-.result pre.to-shrink,
-.result pre.to-expand {
+.nelmio .result pre.to-shrink,
+.nelmio .result pre.to-expand {
   cursor:pointer;
 }
 
-.result pre.to-expand {
+.nelmio .result pre.to-expand {
   height: 1em;
   overflow:hidden;
 }
 
-.tabs li {
+.nelmio .tabs li {
   display: inline;
   float: left;
   margin: 10px;
   cursor: pointer;
 }
 
-.tabs li.selected {
+.nelmio .tabs li.selected {
   font-weight: bold;
 }
 
-.panes {
+.nelmio .panes {
   clear: both;
 }
 
-.pane.sandbox {
+.nelmio .pane.sandbox {
   border: 1px solid #C3D9EC;
   padding: 10px;
 }
 
-.pane.sandbox legend {
+.nelmio .pane.sandbox legend {
   padding-bottom: 5px;
 }
 
-.remove {
+.nelmio .remove {
   cursor: pointer;
 }
 
-.pane.sandbox .result {
+.nelmio .pane.sandbox .result {
   display: none;
 }
 
-form .parameters {
+.nelmio form .parameters {
   float: left;
   width: 50%;
 }
 
-form .parameters .tuple input, form .parameters .tuple textarea {
+.nelmio form .parameters .tuple input, form .parameters .tuple textarea {
 	width: 40%;
 }
 
-form .headers,
-form .request-content {
+.nelmio form .headers,
+.nelmio form .request-content {
   float: left;
   width: 25%;
 }
 
-.buttons {
+.nelmio .buttons {
   clear: both;
   padding-top: 10px;
 }
 
-.request-content textarea {
+.nelmio .request-content textarea {
     width:100%;
     min-width:100%;
     max-width:100%;
@@ -667,17 +626,17 @@ form .request-content {
     margin-bottom:10px;
 }
 
-.pane.content div ul {
+.nelmio .pane.content div ul {
     list-style-type: disc;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.motd {
+.nelmio .motd {
   padding:20px;
 }
 
-.json-collapse-section {
+.nelmio .json-collapse-section {
     color: #660;
     cursor: pointer;
 }
