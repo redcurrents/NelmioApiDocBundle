@@ -5,19 +5,19 @@
 @media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}
 pre.prettyprint{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-smany, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+.nelmio html, .nelmio body, .nelmio div, .nelmio span, .nelmio applet, .nelmio object, .nelmio iframe,
+.nelmio h1, .nelmio h2, .nelmio h3, .nelmio h4, .nelmio h5, .nelmio h6, .nelmio p, .nelmio blockquote, .nelmio pre,
+.nelmio a, .nelmio abbr, .nelmio acronym, .nelmio address, .nelmio big, .nelmio cite, .nelmio code,
+.nelmio del, .nelmio dfn, .nelmio em, .nelmio img, .nelmio ins, .nelmio kbd, .nelmio q, .nelmio s, .nelmio samp,
+.nelmio smany, .nelmio strike, .nelmio strong, .nelmio sub, .nelmio sup, .nelmio tt, .nelmio var,
+.nelmio b, .nelmio u, .nelmio i, .nelmio center,
+.nelmio dl, .nelmio dt, .nelmio dd, .nelmio ol, .nelmio ul, .nelmio li,
+.nelmio fieldset, .nelmio form, .nelmio label, .nelmio legend,
+.nelmio table, .nelmio caption, .nelmio tbody, .nelmio tfoot, .nelmio thead, .nelmio tr, .nelmio th, .nelmio td,
+.nelmio article, .nelmio aside, .nelmio canvas, .nelmio details, .nelmio embed,
+.nelmio figure, .nelmio figcaption, .nelmio footer, .nelmio header, .nelmio hgroup,
+.nelmio menu, .nelmio nav, output, .nelmio ruby, .nelmio section, .nelmio summary,
+.nelmio time, .nelmio mark, .nelmio audio, .nelmio video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -26,34 +26,34 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-body {
+body .nelmio {
   line-height: 1;
   font-family: "Droid Sans", sans-serif;
 }
 
-ol, ul {
+.nelmio ol, ul {
   list-style: none;
 }
 
-table {
+.nelmio table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-caption, th, td {
+.nelmio caption, .nelmio th, .nelmio td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+.nelmio article, .nelmio aside, .nelmio details, .nelmio figcaption, .nelmio figure, .nelmio footer, .nelmio header, .nelmio hgroup, .nelmio menu, .nelmio nav, .nelmio section, .nelmio summary {
   display: block;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+.nelmio h1 a, .nelmio h2 a, .nelmio h3 a, .nelmio h4 a, .nelmio h5 a, .nelmio h6 a {
   text-decoration: none;
 }
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+.nelmio h1 a:hover, .nelmio h2 a:hover, .nelmio h3 a:hover, .nelmio h4 a:hover, .nelmio h5 a:hover, .nelmio h6 a:hover {
   text-decoration: underline;
 }
 
